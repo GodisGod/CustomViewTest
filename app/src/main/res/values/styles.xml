@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="slidingButtonLayout">
+        <!--默认是否可滑动的标志 不设置的话 就默认不可滑动-->
+        <attr name="drag_flag" format="boolean"></attr>
+        <!--必填项，pb的drawable设置 与普通pb drawable设置没有任何不同-->
+        <attr name="progessbar_drawable" format="reference"></attr>
+        <!--滑动完成以后显示的text 必填项-->
+        <attr name="textview_dragfinish_text" format="string"></attr>
+        <!--滑动前显示的text 必填项-->
+        <attr name="textview_text" format="string"></attr>
+        <!--底部text 文字显示的color 注意这是滑动前的color-->
+        <attr name="textview_textcolor" format="color"></attr>
+        <!--底部 滑动完成以后显示的text color-->
+        <attr name="textview_dragfinish_textcolor" format="color"></attr>
+
+        <!--可滑动imageview 滑动前背景图-->
+        <attr name="imageview_background" format="reference"></attr>
+        <!--可滑动imageview 滑动完毕以后的背景图-->
+        <attr name="imageview_dragfinish_background" format="reference"></attr>
+        <!--可滑动imageview 滑动前背景color-->
+        <attr name="imageview_backgroundColor" format="color"></attr>
+        <!--可滑动imageview 滑动结束背景color-->
+        <attr name="imageview_dragfinish_backgroundColor" format="color"></attr>
+        <!--这个是字体大小设置-->
+        <attr name="textview_text_size" format="dimension"></attr>
+        <!--appCode 这个业务方自己配置 写死即可 -->
+        <attr name="appCode" format="string"></attr>
+        <attr name="imageview_width" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>
