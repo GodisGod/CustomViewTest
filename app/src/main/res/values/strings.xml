@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CustomViewTest</string>
+    <string name="count_down_format">%ds 后再次获取</string>
+    <string name="count_down_init_txt">重新发送</string>
+    <string name="plu_register_agreement">《龙珠直播用户服务协议》</string>
 </resources>

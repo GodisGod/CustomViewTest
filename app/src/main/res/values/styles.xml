@@ -37,4 +37,38 @@
         <attr name="imageview_width" format="dimension"></attr>
     </declare-styleable>
 
+    <style name="accountBaseTitleBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="TitleBar" parent="accountBaseTitleBar">
+        <!--<item name="android:background">@android:color/white</item>-->
+        <item name="titlebar_leftAndRightTextSize">16sp</item>
+        <item name="titlebar_titleTextColor">@android:color/black</item>
+        <item name="titlebar_leftAndRightTextColor">@color/vpi__light_theme</item>
+        <item name="titlebar_titleTextSize">18sp</item>
+        <item name="titlebar_leftAndRightPadding">12dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- 输入框-->
+    <style name="edit_common_simple_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textColorHint">#cccccc</item>
+    </style>
+    <style name="btn_common_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/btn_personal_common_selector</item>
+    </style>
 </resources>

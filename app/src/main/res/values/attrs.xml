@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--倒计时文本-->
+    <declare-styleable name="CountDownTextView">
+        <!--文本格式-->
+        <!-- 例如:%ds重新发送-->
+        <attr name="countdown_format" format="reference"/>
+        <attr name="countdown_seconds" format="integer"/>
+        <attr name="countdown_init_txt" format="reference"/>
+        <attr name="countdown_init_txtcolor" format="reference"/>
+        <attr name="countdown_txtcolor" format="reference"/>
+    </declare-styleable>
+</resources>

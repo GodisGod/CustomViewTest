@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="auto_px_100">20px</dimen>
+    <dimen name="auto_px_20">20pd</dimen>
+    <dimen name="auto_px_32">32px</dimen>
+    <dimen name="auto_px_30">30px</dimen>
+    <dimen name="auto_px_10">10px</dimen>
+    <dimen name="auto_px_24">24px</dimen>
+    <dimen name="auto_px_40">40px</dimen>
+    <dimen name="auto_px_14">14px</dimen>
+    <dimen name="auto_px_8">8px</dimen>
+</resources>
